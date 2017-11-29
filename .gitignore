@@ -1,0 +1,6 @@
+config/*.json
+posts/*.json
+media/*
+node_modules
+package-lock.json
+!media/dummy

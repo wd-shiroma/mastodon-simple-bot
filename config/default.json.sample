@@ -1,0 +1,11 @@
+{
+    "application": {
+        "domain": "example.com",
+        "access_token": "regist your application, 'settings' -> 'development'",
+        "visibility": "unlisted"
+    },
+    "path": {
+        "posts": "./posts",
+        "media": "./media"
+    }
+}

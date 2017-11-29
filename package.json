@@ -1,0 +1,17 @@
+{
+  "name": "mastodon-simple-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node check_posts.js",
+    "run": "node main.js"
+  },
+  "author": "gusk-ma",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "config": "^1.28.1",
+    "fs": "0.0.1-security",
+    "mastodon-api": "^1.3.0"
+  }
+}
