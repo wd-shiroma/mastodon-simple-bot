@@ -36,12 +36,14 @@ application内の3つを修正すれば大丈夫かと思います。
 数値：重みづけ(大きい方が選ばれやすくなる)  
 ハイフンまたは英数字：任意文字列。何でもいいです。
 
+./post/xx_statusname.json.sampleを参考にするといいです。
+
 ```json
 {
     "spoiler_text": "contents warning...", //CWメッセージ、不要の場合はこの項目を削除
     "status": "toot message...",           //トゥート内容
     "sensitive": false,                    //NSFWを付ける場合はtrueにする
-    "visibility": "direct",                //投稿範囲(default.jsonで指定したものが優先されます。不要の場合は削除可)
+    "visibility": "direct",                //投稿範囲(未指定の場合はdefault.jsonで指定した値が入ります)
     "media_files": [                       //添付画像(最大４ファイル、mediaディレクトリに格納したファイル名)
         "image1.png",
         "image2.png",
